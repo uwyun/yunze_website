@@ -7,3 +7,37 @@ h1 {
     color: brown;
     font-size: 30px;
 }
+ul{
+    color: blue;
+    
+}
+ol{
+    color: rgb(255, 0, 0);
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ff0000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+}
